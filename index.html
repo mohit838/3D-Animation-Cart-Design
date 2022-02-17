@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D Product Cart</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="product-item">
+        <img src="images/shoes.png" id="frontImg" alt="shoes" />
+        <img src="images/shoes2.png" id="backImg" alt="shoes" />
+
+        <div class="product-content" id="productBox">
+          <div class="product-front">
+            <div class="product-top-area">
+              <h1>Nike</h1>
+            </div>
+            <div class="product-footer-area">
+              <p>Nike running shoes</p>
+              <h2>Air Zoom Einflo 6</h2>
+              <h1>125 <span>$</span></h1>
+              <button type="button">Add to Cart</button>
+              <div class="color-options">
+                <div class="select-item">
+                  <img
+                    src="images/shoes-icon.png"
+                    onclick="flipRight()"
+                    alt="shoes"
+                  />
+                </div>
+                <div class="select-item">
+                  <img
+                    src="images/shoes-icon2.png"
+                    onclick="flipLeft()"
+                    alt="shoes"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product Back -->
+          <div class="product-back">
+            <div class="product-top-area product-top-area-two">
+              <h1>Nike</h1>
+            </div>
+            <div class="product-footer-area">
+              <p>Nike running shoes</p>
+              <h2>Air Zoom Einflo 6</h2>
+              <h1>125 <span>$</span></h1>
+              <button type="button">Add to Cart</button>
+              <div class="color-options">
+                <div class="select-item">
+                  <img
+                    src="images/shoes-icon.png"
+                    onclick="flipRight()"
+                    alt="shoes"
+                  />
+                </div>
+                <div class="select-item">
+                  <img
+                    src="images/shoes-icon2.png"
+                    onclick="flipLeft()"
+                    alt="shoes"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="left-side"></div>
+          <div class="right-side"></div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
